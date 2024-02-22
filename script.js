@@ -1,6 +1,9 @@
 function stringChop(str, size) {
   // your code here
 	const result = [];
+
+	if(str==null || str.length==0) return result;
+	
 	size = size - 0;
 
 	let start = 0;
